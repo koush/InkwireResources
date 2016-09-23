@@ -7,7 +7,7 @@
     <string name="share_access_code">Zugangscode weitergeben</string>
     <string name="see_shared_android">Betrachte den Bildschirm eines anderen Nutzers</string>
     <string name="access">Verbinden</string>
-    <string name="share_access_code_info">Um die Übertragung zu beginnen sende den folgenden Zugangscode an die Person, die Dir helfen soll.</string>
+    <string name="share_access_code_info">Um die Übertragung zu beginnen, sende den folgenden Zugangscode an die Person, die Dir helfen soll.</string>
     <string name="creating_access_code">Zugangscode erzeugen</string>
     <string name="send_link">Link senden</string>
     <string name="copy_link">Link kopieren</string>
