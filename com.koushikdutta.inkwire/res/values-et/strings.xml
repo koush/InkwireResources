@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Inkwire</string>
-    <string name="welcome_to_inkwire">Tere tulemast rakendusse Inkwire</string>
+    <string name="welcome_to_inkwire">Tere tulemast Inkwire\'i</string>
     <string name="screenshare_in_progress">Sinu ekraani hetkel jagatakse.</string>
     <string name="share_this_android">Jaga seda Androidi teisele kasutajale nägemiseks</string>
     <string name="share">Jaga</string>
@@ -11,16 +11,16 @@
     <string name="creating_access_code">Loon ligipääsukoodi</string>
     <string name="send_link">Saada link</string>
     <string name="copy_link">Kopeeri link</string>
-    <string name="or_send_link">Or send them a link to access your screen:</string>
-    <string name="or_invite_link">Or invite them to share their screen with a link:</string>
-    <string name="waiting_for_connection">Waiting for connection...</string>
-    <string name="link_copied">Link copied to clipboard</string>
-    <string name="allow_screen_capture">Allow Screen Capture</string>
+    <string name="or_send_link">Või saada neile link sinu ekraanile ligipääsemiseks:</string>
+    <string name="or_invite_link">Või kutsu neid lingi abil oma ekraani jagama:</string>
+    <string name="waiting_for_connection">Ootan ühendust...</string>
+    <string name="link_copied">Link kopeeritud lõikelauale</string>
+    <string name="allow_screen_capture">Luba ekraanihõive</string>
     <string name="remote_user_info">The remote user is able to view your screen and draw on it. You can end the session any time from the notification panel.</string>
-    <string name="got_it">Got it</string>
+    <string name="got_it">Selge</string>
     <string name="enable_the_microphone">Enable the microphone to start a voice chat.</string>
     <string name="mute_chat">Mute Chat</string>
-    <string name="stop">Stop</string>
+    <string name="stop">Peata</string>
     <string name="enter_access_code">Enter Access Code</string>
     <string name="enter_access_code_info">Ask the user whose Android you wish to access to click "Share" and give you the access code.</string>
     <string name="access_code">Access Code</string>
@@ -28,12 +28,12 @@
     <string name="error_contacting_server">There was an error while connecting to Inkwire servers.</string>
     <string name="connecting_dotdotdot">Connecting&#8230;</string>
     <string name="you_were_invited">Another Inkwire user wants to share their screen with you.</string>
-    <string name="connect">Connect</string>
-    <string name="cancel">Cancel</string>
-    <string name="session_not_found">Inkwire session not found. It may have expired.</string>
-    <string name="connected_to_screenshare">You are viewing a shared screen.</string>
-    <string name="enable_microphone">Enable Microphone</string>
-    <string name="no_thanks">No Thanks</string>
+    <string name="connect">Ühenda</string>
+    <string name="cancel">Tühista</string>
+    <string name="session_not_found">Inkwire sessiooni ei leitud. See võib olla aegunud.</string>
+    <string name="connected_to_screenshare">Sa vaatad jagatud ekraani.</string>
+    <string name="enable_microphone">Luba mikrofon</string>
+    <string name="no_thanks">Tänan ei</string>
     <string name="you_were_requested">Another Inkwire user invited you to share your screen.</string>
     <string name="session_disconnected">You were disconnected from the shared screen.</string>
     <string name="confirm_exit">Are you sure you want to exit this screen sharing session?</string>
@@ -41,5 +41,5 @@
     <string name="remote_user_can_hear_you">The remote user can hear you now</string>
     <string name="voice_chat_off">Voice chat off</string>
     <string name="remote_user_cant_hear_you">The remote user can\'t hear you</string>
-    <string name="sharing">Sharing</string>
+    <string name="sharing">Jagamine</string>
 </resources>
