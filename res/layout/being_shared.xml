@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.koushikdutta.boilerplate.ScrollingToolbarLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/scrolling_toolbar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <FrameLayout
+            android:background="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <LinearLayout
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            <TextView
+                    android:textColor="@color/textColorPrimaryInverse"
+                    style="@style/TextAppearance.AppCompat.Body2"
+                    android:text="@string/screenshare_in_progress"
+                    android:layout_margin="@dimen/boilerplate_list_item_layout_horizontalMargin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            <TextView
+                    android:textColor="@color/textColorPrimaryInverse"
+                    style="@style/TextAppearance.AppCompat.Body2"
+                    android:text="@string/remote_user_info"
+                    android:layout_margin="@dimen/boilerplate_list_item_layout_horizontalMargin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            <View
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="12dp"
+                android:background="@android:color/white"
+                android:layout_width="match_parent"
+                android:layout_height="1dp" />
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                <LinearLayout
+                        android:layout_gravity="center_vertical"
+                        android:layout_margin="@dimen/boilerplate_list_item_layout_horizontalMargin"
+                        android:orientation="vertical"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content">
+                    <TextView
+                            android:textColor="@color/textColorPrimaryInverse"
+                            android:id="@+id/voice_chat"
+                            style="@style/TextAppearance.AppCompat.Body2"
+                            android:text="@string/voice_chat_on"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                    <TextView
+                            android:textColor="@color/textColorPrimaryInverse"
+                            android:id="@+id/remote_user_hear"
+                            style="@style/TextAppearance.AppCompat.Body2"
+                            android:text="@string/remote_user_can_hear_you"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                </LinearLayout>
+                <android.support.v7.widget.SwitchCompat
+                        android:layout_gravity="center_vertical"
+                        app:theme="@style/InkwireTheme.Switch"
+                        android:id="@+id/microphone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+            </LinearLayout>
+            <android.support.v7.widget.AppCompatButton
+                    android:layout_margin="@dimen/boilerplate_list_item_layout_horizontalMargin"
+                    android:id="@+id/got_it"
+                    android:textColor="@android:color/white"
+                    android:text="@string/got_it"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </FrameLayout>
+
+
+    <LinearLayout
+            android:background="?attr/colorPrimary"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <FrameLayout
+                android:background="?attr/colorPrimaryDark"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/icon_list_drawer_activity_statusbar_height"/>
+
+        <android.support.v7.widget.Toolbar
+                app:title="@string/sharing"
+                android:id="@+id/toolbar"
+                app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                />
+
+    </LinearLayout>
+
+</com.koushikdutta.boilerplate.ScrollingToolbarLayout>

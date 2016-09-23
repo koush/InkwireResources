@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fa_chevron_left">&#xf053;</string>
+    <string name="fa_circle_o">&#xf10c;</string>
+    <string name="fa_navicon">&#xf0c9;</string>
+</resources>
