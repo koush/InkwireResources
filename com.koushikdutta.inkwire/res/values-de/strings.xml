@@ -18,7 +18,7 @@
     <string name="allow_screen_capture">Screenshot erlauben</string>
     <string name="remote_user_info">Der andere Nutzer ist in der Lage deinen Bilschirm zu sehen und darauf zu zeichnen. Du kannst die Verbindung jederzeit in der Benachrichtigungsleiste beenden.</string>
     <string name="got_it">gefunden</string>
-    <string name="enable_the_microphone">Aktiviere das Mikrofon um die Sprachverbindung zu starten.</string>
+    <string name="enable_the_microphone">Aktiviere das Mikrofon, um die Sprachverbindung zu starten.</string>
     <string name="mute_chat">Stumm</string>
     <string name="stop">Stop</string>
     <string name="enter_access_code">Zugangscode eingeben</string>
