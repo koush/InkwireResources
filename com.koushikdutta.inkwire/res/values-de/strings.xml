@@ -12,7 +12,7 @@
     <string name="send_link">Link senden</string>
     <string name="copy_link">Link kopieren</string>
     <string name="or_send_link">Oder sende einen Zugangslink:</string>
-    <string name="or_invite_link">Oder sende einen Einladungslink mit der Bitte den Bildschirm zu teilen:</string>
+    <string name="or_invite_link">Oder sende einen Einladungslink, mit der Bitte den Bildschirm zu teilen:</string>
     <string name="waiting_for_connection">Warte auf die Verbindung...</string>
     <string name="link_copied">Link in die Zwischenablage kopiert</string>
     <string name="allow_screen_capture">Screenshot erlauben</string>
