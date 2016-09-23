@@ -34,7 +34,7 @@
     <string name="connected_to_screenshare">Du siehst einen geteilten Bildschirm.</string>
     <string name="enable_microphone">Mikrofon ein</string>
     <string name="no_thanks">Nein. Danke</string>
-    <string name="you_were_requested">Ein anderer Inkwire Nutzer bittet Dich deinen Bildschirm mit ihm zu teilen.</string>
+    <string name="you_were_requested">Ein anderer Inkwire Nutzer bittet Dich, deinen Bildschirm mit ihm zu teilen.</string>
     <string name="session_disconnected">Du wurdest vom geteilten Bilschirm getrennt.</string>
     <string name="confirm_exit">Bist Du sicher, dass Du diese Sitzung verlassen möchtest ?</string>
     <string name="voice_chat_on">Sprachverbindung ein</string>
