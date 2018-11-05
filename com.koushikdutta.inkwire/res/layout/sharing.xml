@@ -135,7 +135,7 @@
                             android:layout_height="wrap_content"/>
 
                     <com.koushikdutta.boilerplate.tint.TintedProgressBar
-                            app:tint="@color/colorAccent"
+                            app:tintColor="@color/colorAccent"
                             android:elevation="10dp"
                             style="@style/Widget.AppCompat.ProgressBar.Horizontal"
                             android:indeterminate="true"
