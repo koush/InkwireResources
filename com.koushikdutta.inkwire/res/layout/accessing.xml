@@ -104,7 +104,7 @@
 
                 </LinearLayout>
 
-                <android.support.v7.widget.AppCompatButton
+                <androidx.appcompat.widget.AppCompatButton
                         android:layout_marginTop="8dp"
                         android:id="@+id/access"
                         android:layout_gravity="center_horizontal"
@@ -134,13 +134,13 @@
                         android:layout_marginTop="@dimen/boilerplate_list_item_layout_horizontalMargin"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content">
-                    <android.support.v7.widget.AppCompatButton
+                    <androidx.appcompat.widget.AppCompatButton
                             android:id="@+id/send_link"
                             android:textColor="@android:color/white"
                             android:text="@string/send_link"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"/>
-                    <android.support.v7.widget.AppCompatButton
+                    <androidx.appcompat.widget.AppCompatButton
                             android:id="@+id/copy_link"
                             android:layout_marginLeft="4dp"
                             android:textColor="@android:color/white"
@@ -190,7 +190,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/icon_list_drawer_activity_statusbar_height"/>
 
-        <android.support.v7.widget.Toolbar
+        <androidx.appcompat.widget.Toolbar
                 app:title="@string/enter_access_code"
                 android:id="@+id/toolbar"
                 app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"

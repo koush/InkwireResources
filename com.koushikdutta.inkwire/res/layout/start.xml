@@ -30,7 +30,7 @@
                         style="@style/TextAppearance.AppCompat.Body2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"/>
-                <android.support.v7.widget.AppCompatButton
+                <androidx.appcompat.widget.AppCompatButton
                         android:id="@+id/share"
                         android:textColor="@android:color/white"
                         android:text="@string/share"
@@ -57,7 +57,7 @@
                         style="@style/TextAppearance.AppCompat.Body2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"/>
-                <android.support.v7.widget.AppCompatButton
+                <androidx.appcompat.widget.AppCompatButton
                         android:id="@+id/access"
                         android:textColor="@android:color/white"
                         android:text="@string/access"
@@ -80,7 +80,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/icon_list_drawer_activity_statusbar_height"/>
 
-        <android.support.v7.widget.Toolbar
+        <androidx.appcompat.widget.Toolbar
                 app:title="@string/welcome_to_inkwire"
                 android:id="@+id/toolbar"
                 app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"

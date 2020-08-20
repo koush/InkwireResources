@@ -42,4 +42,5 @@
     <string name="voice_chat_off">Voice chat off</string>
     <string name="remote_user_cant_hear_you">The remote user can\'t hear you</string>
     <string name="sharing">Sharing</string>
+    <string name="enable_draw_over">You must grant Inkwire permission to draw over other applications to see where your screen sharing participant is clicking.</string>
 </resources>
